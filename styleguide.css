@@ -1,0 +1,100 @@
+:root { 
+  --alto: #dadada;
+  --blue-marguerite: #685dc5;
+  --fuscous-gray: #525252;
+  --fuscous-gray-2: #535353;
+  --granite-gray: #696969;
+  --white: #ffffff;
+ 
+  --font-size-l: 26px;
+  --font-size-m: 22px;
+  --font-size-s: 18px;
+  --font-size-xl: 27px;
+  --font-size-xs: 16px;
+  --font-size-xxl: 48px;
+ 
+  --font-family-apercu_pro-light: "Apercu Pro-Light", Helvetica;
+  --font-family-apercu_pro-medium: "Apercu Pro-Medium", Helvetica;
+}
+.apercupro-medium-blue-marguerite-16px {
+  color: var(--blue-marguerite);
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apercupro-light-fuscous-gray-16px {
+  color: var(--fuscous-gray-2);
+  font-family: var(--font-family-apercu_pro-light);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.apercupro-medium-white-16px {
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apercupro-light-fuscous-gray-16px-2 {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-apercu_pro-light);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.apercupro-medium-fuscous-gray-22px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apercupro-light-granite-gray-26px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-apercu_pro-light);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.apercupro-light-fuscous-gray-22px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-apercu_pro-light);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.apercupro-medium-blue-marguerite-22px {
+  color: var(--blue-marguerite);
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apercupro-medium-blue-marguerite-48px {
+  color: var(--blue-marguerite);
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apercupro-medium-fuscous-gray-16px {
+  color: var(--fuscous-gray-2);
+  font-family: var(--font-family-apercu_pro-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.border-1px-alto {
+  border: 1px solid var(--alto);
+}
